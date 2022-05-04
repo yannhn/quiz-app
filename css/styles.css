@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  /* background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+  background-attachment: fixed; */
+}
+
+/*
+:root {
+    --primary-color: blue;
+    --secondary-color: red;
+    --tertiary-color: green;
+}
+*/
