@@ -80,3 +80,10 @@
   font-size: 1rem;
   border-radius: 5px;
 }
+
+.card__form svg {
+  position: absolute;
+  right: 430px;
+  top: 110px;
+  color: var(--tertiary-color);
+}

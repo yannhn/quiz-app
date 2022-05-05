@@ -21,6 +21,7 @@ body {
 .header {
   position: sticky;
   top: 0;
+  z-index: 1;
 }
 
 .header__nav {
@@ -28,7 +29,7 @@ body {
   justify-content: center;
   align-items: center;
 
-  padding: 0.6em;
+  padding: 0.2em;
   margin-bottom: 2em;
   width: 100%;
   border-bottom-left-radius: 30px;
@@ -56,7 +57,7 @@ h1 {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 2em;
+  padding: 1em;
 }
 
 .footer li {
