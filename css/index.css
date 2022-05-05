@@ -5,7 +5,7 @@
   display: flex;
   justify-content: center;
   padding: 2em;
-  /* height: 300px; */
+  height: 35%;
 }
 
 .card__fieldset {
@@ -13,11 +13,13 @@
   grid-template-columns: 1fr;
   grid-template-rows: repeat(4, 1fr);
   align-content: center;
-  padding: 2em;
+  padding: 1.4em;
   border-radius: 20px;
   border: none;
   background-color: white;
-  /* width: 600px; */
+  width: 50%;
+
+  box-shadow: inset;
 }
 
 .card__fieldset h2 {
@@ -25,14 +27,15 @@
   align-self: center;
 }
 
-.card__fieldset input {
-  align-self: center;
+.card__fieldset p {
+  padding: 0.6em;
   justify-self: center;
 }
 
-.card__fieldset p {
-  padding: 1em;
+.card__fieldset input {
+  align-self: center;
   justify-self: center;
+  padding: 0.6em;
 }
 
 .card__fieldset ul {
@@ -47,4 +50,7 @@
 .card__fieldset a {
   text-decoration: none;
   color: black;
+  padding: 0.5em 1em;
+  border-radius: 20px;
+  border: 1px solid black;
 }
