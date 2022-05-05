@@ -30,6 +30,7 @@
 .card__fieldset p {
   padding: 0.6em;
   justify-self: center;
+  align-self: center;
 }
 
 .card__fieldset input {
@@ -40,6 +41,7 @@
 
 .card__fieldset ul {
   justify-self: center;
+  align-self: center;
 }
 
 .card__fieldset li {
