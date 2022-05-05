@@ -7,9 +7,9 @@
   background-attachment: fixed; */
 }
 
-/* main {
-  background: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
-  background-attachment: fixed; 
+body {
+  background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+  background-attachment: fixed;
 }
 
 */
@@ -22,19 +22,35 @@
 }
 */
 
-.header h1 {
-  background-color: aquamarine;
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: inherit;
+}
+
+h1 {
   text-align: center;
+  align-self: center;
+  padding: 0.6em;
+  background-color: white;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
 }
 
 .footer {
   display: flex;
   justify-content: center;
-  background-color: red;
+  align-items: center;
+  z-index: inherit;
+  background-color: white;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
 }
 
 .footer li {
   display: inline-block;
+  padding: 2em;
 }
 
 .footer a {
