@@ -12,15 +12,11 @@ body {
   background-attachment: fixed;
 }
 
-*/
-
-/*
 :root {
-    --primary-color: blue;
-    --secondary-color: red;
-    --tertiary-color: green;
+  --primary-color: #2e2e2e;
+  --secondary-color: #4285f4;
+  --tertiary-color: #ff4444;
 }
-*/
 
 .header {
   position: sticky;
@@ -45,6 +41,7 @@ h1 {
   align-self: center;
   padding: 0.4em;
   font-size: 2rem;
+  color: var(--primary-color);
 }
 
 .footer {
@@ -71,5 +68,5 @@ h1 {
 }
 
 .footer svg {
-  color: grey;
+  color: var(--primary-color);
 }
