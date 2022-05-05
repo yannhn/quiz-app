@@ -1,2 +1,33 @@
 @import "../css/styles.css";
 @import url("../css/styles.css");
+
+.card__form {
+  display: flex;
+  justify-content: center;
+  padding: 2em;
+}
+
+.card__fieldset {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2em;
+}
+
+.card__fieldset h2 {
+  align-self: flex-start;
+}
+
+.card__fieldset p {
+  align-self: flex-start;
+}
+
+.card__fieldset input {
+  text-align: center;
+}
+
+.card__fieldset li {
+  display: inline-block;
+  align-self: center;
+}
