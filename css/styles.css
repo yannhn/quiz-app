@@ -3,7 +3,7 @@
   padding: 0;
   margin: 0;
   font-family: "Lato", sans-serif;
-  /* background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+  /* background: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
   background-attachment: fixed; */
 }
 
@@ -14,3 +14,22 @@
     --tertiary-color: green;
 }
 */
+
+.header h1 {
+  background-color: aquamarine;
+  text-align: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: red;
+}
+
+.footer li {
+  display: inline-block;
+}
+
+.footer a {
+  text-decoration: none;
+}
