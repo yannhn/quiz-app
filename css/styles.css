@@ -49,8 +49,9 @@ h1 {
   background-color: white;
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
-  position: sticky;
+  position: fixed;
   bottom: 0;
+  width: 100%;
 }
 
 .footer__ulist {
