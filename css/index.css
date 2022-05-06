@@ -21,6 +21,7 @@
   width: 50%;
 
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  position: relative;
 }
 
 .card__fieldset h2 {
@@ -83,7 +84,7 @@
 
 .card__form svg {
   position: absolute;
-  right: 430px;
-  top: 110px;
+  right: 30%;
+  top: 9%;
   color: var(--tertiary-color);
 }
