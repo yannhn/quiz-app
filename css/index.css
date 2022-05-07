@@ -7,6 +7,7 @@
   padding: 2em;
   height: 35%;
   margin: 1em auto;
+  position: relative;
 }
 
 .card__fieldset {
@@ -85,7 +86,7 @@
 
 .card__form svg {
   position: absolute;
-  right: 30%;
-  top: 9%;
+  right: 40%;
+  top: 0%;
   color: var(--tertiary-color);
 }
