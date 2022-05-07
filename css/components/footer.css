@@ -1,0 +1,27 @@
+.footer {
+  background-color: white;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer__ulist {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1em;
+}
+
+.footer li {
+  display: inline-block;
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.footer svg {
+  color: var(--primary-color);
+}
