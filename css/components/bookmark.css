@@ -1,0 +1,6 @@
+.card__form svg {
+  position: absolute;
+  right: 40%;
+  top: 0%;
+  color: var(--tertiary-color);
+}

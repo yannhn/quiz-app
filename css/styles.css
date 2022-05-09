@@ -1,8 +1,12 @@
 @import url(../css/components/header.css);
 @import url(../css/components/footer.css);
-@import url(../css/components/submitcard.css);
+@import url(../css/components/submit.css);
 @import url(../css/components/profilecard.css);
 @import url(../css/components/card.css);
+@import url(../css/components/bookmark.css);
+@import url(../css/components/bg_card.css);
+@import url(../css/components/button.css);
+@import url(../css/components/tags.css);
 
 * {
   box-sizing: border-box;
@@ -22,59 +26,4 @@ body {
   --primary-color: #2e2e2e;
   --secondary-color: #4285f4;
   --tertiary-color: #ff4444;
-}
-
-.header {
-  position: sticky;
-  top: 0;
-  z-index: 1;
-}
-
-.header__nav {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  padding: 0.2em;
-  margin-bottom: 2em;
-  width: 100%;
-  border-bottom-left-radius: 30px;
-  border-bottom-right-radius: 30px;
-  background-color: white;
-}
-
-h1 {
-  text-align: center;
-  align-self: center;
-  padding: 0.4em;
-  font-size: 2rem;
-  color: var(--primary-color);
-}
-
-.footer {
-  background-color: white;
-  border-top-left-radius: 30px;
-  border-top-right-radius: 30px;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-}
-
-.footer__ulist {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding: 1em;
-}
-
-.footer li {
-  display: inline-block;
-}
-
-.footer a {
-  text-decoration: none;
-}
-
-.footer svg {
-  color: var(--primary-color);
 }
