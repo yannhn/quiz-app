@@ -1,4 +1,4 @@
-.card__fieldset input {
+.card__fieldset button {
   align-self: center;
   justify-self: center;
   padding: 1em 2em;
@@ -12,6 +12,6 @@
   transition: 0.4s ease;
 }
 
-.card__fieldset input:hover {
+.card__fieldset button:hover {
   background-color: #0d47a1;
 }

@@ -5,7 +5,8 @@
 @import url(../css/components/card.css);
 @import url(../css/components/bookmark.css);
 @import url(../css/components/bg_card.css);
-@import url(../css/components/button.css);
+@import url(../css/components/button_card.css);
+@import url(../css/components/button_submit.css);
 @import url(../css/components/tags.css);
 
 * {
