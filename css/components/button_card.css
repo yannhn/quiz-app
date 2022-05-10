@@ -1,4 +1,4 @@
-.card__content button {
+.card__button {
   padding: 1em 2em;
   margin: 0 0 3em 0;
   border-radius: 10rem;
@@ -13,6 +13,6 @@
   align-self: center;
 }
 
-.card__content button:hover {
+.card__button:hover {
   background-color: #0d47a1;
 }

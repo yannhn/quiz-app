@@ -1,7 +1,10 @@
 .bookmark {
   position: absolute;
   right: 5%;
-  top: -10%;
-  align-self: end;
-  color: var(--tertiary-color);
+  top: -5%;
+  fill: var(--primary-color);
+}
+
+.filled {
+  fill: var(--tertiary-color);
 }
