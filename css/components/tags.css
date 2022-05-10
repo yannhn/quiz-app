@@ -1,14 +1,17 @@
-.card__fieldset ul {
+.card__content ul {
   justify-self: center;
   align-self: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.card__fieldset li {
+.card__content li {
   display: inline-block;
   padding: 1em;
 }
 
-.card__fieldset a {
+.card__content a {
   text-decoration: none;
   color: white;
   padding: 0.6em 2em;

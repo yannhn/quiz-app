@@ -1,6 +1,7 @@
 .bookmark {
   position: absolute;
-  right: 40%;
-  top: 0%;
+  right: 5%;
+  top: -10%;
+  align-self: end;
   color: var(--tertiary-color);
 }
