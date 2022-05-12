@@ -16,5 +16,4 @@ button.addEventListener('click', () => {
     button.textContent = 'Show Answer';
   }
   answer.classList.toggle('.hidden');
-  //this works but not chnages back afterwards
 });
