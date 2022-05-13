@@ -10,9 +10,6 @@
 .card__content {
   display: flex;
   flex-direction: column;
-  grid-template-columns: 1fr;
-  grid-template-rows: repeat(4, 1fr);
-  grid-gap: 0.8em;
   align-content: center;
   padding: 1.4em;
   border-radius: 20px;
@@ -45,6 +42,6 @@
   justify-content: center;
 }
 
-.card__answer {
+.hidden {
   display: none;
 }
