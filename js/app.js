@@ -14,6 +14,7 @@ buttons.forEach(toggleAnswer);
 
 // count strings
 
+// count question
 let textAreaQuestion = document.querySelector('.input__question');
 let characterCounterQuestion = document.querySelector('.counter__question');
 
@@ -23,6 +24,7 @@ const countQuestion = () => {
 };
 textAreaQuestion.addEventListener('input', countQuestion);
 
+//count answer
 let textAreaAnswer = document.querySelector('.input__answer');
 let characterCounterAnswer = document.querySelector('.counter__answer');
 

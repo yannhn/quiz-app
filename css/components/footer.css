@@ -24,4 +24,11 @@
 
 .nav__svg {
   color: var(--primary-color);
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.nav__svg:hover {
+  transform: scale(1.05);
+  color: #3f729b;
 }
