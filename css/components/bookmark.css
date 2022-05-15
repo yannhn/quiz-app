@@ -3,8 +3,14 @@
   right: 5%;
   top: -5%;
   fill: var(--primary-color);
+  transition: transform 0.2s ease; /* Animation */
+  cursor: pointer;
 }
 
 .filled {
   fill: var(--tertiary-color);
+}
+
+.bookmark:hover {
+  transform: scale(1.1);
 }

@@ -22,6 +22,6 @@
   text-decoration: none;
 }
 
-.footer svg {
+.nav__svg {
   color: var(--primary-color);
 }

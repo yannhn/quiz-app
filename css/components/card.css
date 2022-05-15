@@ -30,8 +30,6 @@
 }
 
 .card__question {
-  justify-self: center;
-  align-self: center;
   font-weight: 400;
   font-size: 1.6rem;
   padding: 1em 1.2em;
@@ -40,8 +38,18 @@
   color: var(--primary-color);
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .hidden {
   display: none;
+}
+
+.displayed {
+  font-weight: 400;
+  font-size: 1.4rem;
+  padding: 1em 1.2em;
+  margin: 0 0 1em 0;
+  text-align: center;
+  color: var(--primary-color);
 }
